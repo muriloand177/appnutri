@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr(a) Camila Costa — Nutrologia & Emagrecimento</title>
+    <title>Dr(a). Camila Costa — Nutrologia & Emagrecimento</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts: Plus Jakarta Sans -->
@@ -40,7 +40,7 @@
     <header id="header" class="fixed inset-x-0 top-0 z-50 transition-all duration-300 bg-transparent">
         <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-12">
             <a href="#inicio" class="text-lg font-bold tracking-tight text-[#1d1d1f]">
-                Dra Camila Costa
+                Dr(a). Camila Costa
             </a>
 
             <ul class="hidden items-center gap-8 md:flex">
@@ -103,10 +103,11 @@
                         </a>
                     </div>
                 </div>
+
                 <!-- Foto da Profissional -->
                 <div class="relative">
                     <div class="aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-[0_30px_80px_-30px_rgba(45,30,47,0.35)]">
-                        <img src="src/imagem1.png" alt="Dr(a). Camila Costa" class="h-full w-full object-cover">
+                        <img src="./src/imagem1.jpg" alt="Dr(a). Camila Costa" class="h-full w-full object-cover">
                     </div>
                 </div>
             </div>
@@ -115,7 +116,7 @@
         <!-- Serviços -->
         <section id="servicos" class="scroll-mt-24 px-6 py-24 md:px-12 lg:px-20 lg:py-32 bg-[#Fbfbfd]">
             <div class="mx-auto max-w-7xl">
-                <p class="text-sm font-medium text-[#6e6e73]">+ 12 anos de experiência</p>
+                <p class="text-sm font-medium text-[#6e6e73]"> X anos de experiência</p>
                 <h2 class="mt-3 max-w-2xl text-4xl font-bold tracking-[-0.025em] text-[#1d1d1f] md:text-5xl">
                     Como posso ajudar você?
                 </h2>
@@ -211,12 +212,127 @@
             </div>
         </section>
 
+        <!-- Seção Lifestyle com 3 Carrosséis Independentes -->
+        <section class="scroll-mt-24 px-6 py-24 md:px-12 lg:px-20 lg:py-32 bg-[#F5F2EE]">
+            <div class="mx-auto max-w-7xl">
+                <div class="text-center max-w-2xl mx-auto">
+                    <p class="text-sm font-medium text-[#6e6e73]">Equilíbrio e Constância</p>
+                    <h2 class="mt-3 text-4xl font-bold tracking-[-0.025em] text-[#1d1d1f] md:text-5xl">
+                        Uma rotina real, sem neura e sem privações
+                    </h2>
+                    <p class="mt-4 text-lg text-[#6e6e73]">
+                        Acredito que o cuidado com a saúde deve caber na sua vida, e não o contrário. Comer bem e treinar fazem parte de um estilo de vida leve e sustentável.
+                    </p>
+                </div>
+
+                <div class="mt-16 grid gap-6 md:grid-cols-3">
+                    
+                    <!-- CARROSSEL 1: Esporte e Treino -->
+                    <div class="group relative overflow-hidden rounded-2xl aspect-[4/5] shadow-lg bg-black">
+                        <div class="carousel-track flex h-full w-full transition-transform duration-500 ease-out" data-index="0">
+                            <!-- Slide 1.1 -->
+                            <div class="min-w-full h-full relative">
+                                <img src="./src/imagem2.jpg" alt="Prática de esporte e treino" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
+                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Movimento</span>
+                                    <h3 class="text-xl font-bold mt-1">Esporte e Treino com prazer</h3>
+                                    <p class="text-sm text-white/80 mt-2">Movimentar o corpo porque você gosta, seja na musculação ou no esporte.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 1.2 (Adicione mais imagens aqui se quiser) -->
+                            <div class="min-w-full h-full relative">
+                                <img src="./src/imagem2_extra.jpg" alt="Treino funcional ou esporte" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
+                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Disposição</span>
+                                    <h3 class="text-xl font-bold mt-1">Energia para o dia a dia</h3>
+                                    <p class="text-sm text-white/80 mt-2">Constância nos treinos alinhada com a sua rotina real.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="carousel-prev absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
+                            <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                        </button>
+                        <button type="button" class="carousel-next absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
+                            <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                        </button>
+                    </div>
+
+                    <!-- CARROSSEL 2: Alimentação Sem Terrorismo -->
+                    <div class="group relative overflow-hidden rounded-2xl aspect-[4/5] shadow-lg bg-black">
+                        <div class="carousel-track flex h-full w-full transition-transform duration-500 ease-out" data-index="1">
+                            <!-- Slide 2.1 -->
+                            <div class="min-w-full h-full relative">
+                                <img src="./src/imagem3.jpg" alt="Café da manhã equilibrado" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
+                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Nutrição</span>
+                                    <h3 class="text-xl font-bold mt-1">Comida de verdade sem terrorismo</h3>
+                                    <p class="text-sm text-white/80 mt-2">Sem cortar tudo o que você ama. O segredo está na flexibilidade.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 2.2 -->
+                            <div class="min-w-full h-full relative">
+                                <img src="./src/imagem5.jpg" alt="Prato saudável e flexível" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
+                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Flexibilidade</span>
+                                    <h3 class="text-xl font-bold mt-1">Pratos reais e prazerosos</h3>
+                                    <p class="text-sm text-white/80 mt-2">Alimentação nutritiva que se adapta ao seu dia a dia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="carousel-prev absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
+                            <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                        </button>
+                        <button type="button" class="carousel-next absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
+                            <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                        </button>
+                    </div>
+
+                    <!-- CARROSSEL 3: Estilo de Vida -->
+                    <div class="group relative overflow-hidden rounded-2xl aspect-[4/5] shadow-lg bg-black">
+                        <div class="carousel-track flex h-full w-full transition-transform duration-500 ease-out" data-index="2">
+                            <!-- Slide 3.1 -->
+                            <div class="min-w-full h-full relative">
+                                <img src="./src/imagem4.jpg" alt="Estilo de vida equilibrado" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
+                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Lifestyle</span>
+                                    <h3 class="text-xl font-bold mt-1">Resultados para a vida toda</h3>
+                                    <p class="text-sm text-white/80 mt-2">Um método construído para se adaptar à sua rotina real, social e profissional.</p>
+                                </div>
+                            </div>
+                            <!-- Slide 3.2 (Adicione mais imagens aqui se quiser) -->
+                            <div class="min-w-full h-full relative">
+                                <img src="./src/imagem4_extra.jpg" alt="Momento de lazer" class="h-full w-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
+                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Equilíbrio</span>
+                                    <h3 class="text-xl font-bold mt-1">Vida social e saúde juntas</h3>
+                                    <p class="text-sm text-white/80 mt-2">Aproveitar os momentos sem culpa e com autonomia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="carousel-prev absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
+                            <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                        </button>
+                        <button type="button" class="carousel-next absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
+                            <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="mt-16 text-center">
+                    <a href="#contato" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#2D1E2F] px-6 py-3 text-sm font-medium text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
+                        <i data-lucide="calendar" class="w-4 h-4"></i> Agende agora sua consulta
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <!-- Sobre Mim -->
         <section id="sobre" class="scroll-mt-24 px-6 py-24 md:px-12 lg:px-20 lg:py-32 bg-[#Fbfbfd]">
             <div class="mx-auto grid max-w-7xl gap-16 lg:grid-cols-[1.3fr_1fr] lg:items-center">
                 <div>
                     <h2 class="text-4xl font-bold tracking-[-0.025em] text-[#1d1d1f] md:text-5xl">
-                        Oi, eu sou a Verônica!
+                        Oi, eu sou a Camila!
                     </h2>
                     <div class="mt-8 space-y-6 text-lg leading-relaxed text-[#6e6e73]">
                         <p>
@@ -235,7 +351,7 @@
                             <span class="text-xs">Foto de perfil</span>
                         </div>
                     </div>
-                    <h3 class="text-xl font-semibold text-[#1d1d1f]">Dr(a). Verônica Ferrari</h3>
+                    <h3 class="text-xl font-semibold text-[#1d1d1f]">Dr(a). Camila Costa</h3>
                     <p class="mt-1 text-sm text-[#6e6e73]">Nutróloga · CRM 00000</p>
                     <div class="mt-6 flex flex-wrap gap-2 text-xs text-[#1d1d1f]">
                         <span class="rounded-full bg-[#F5F2EE] px-3 py-1.5">Nutrologia</span>
@@ -303,80 +419,6 @@
             </div>
         </section>
 
-        <!-- Seção Lifestyle & Carrossel Interativo -->
-        <section class="scroll-mt-24 px-6 py-24 md:px-12 lg:px-20 lg:py-32 bg-[#F5F2EE]">
-            <div class="mx-auto max-w-7xl">
-                <div class="text-center max-w-2xl mx-auto">
-                    <p class="text-sm font-medium text-[#6e6e73]">Equilíbrio e Constância</p>
-                    <h2 class="mt-3 text-4xl font-bold tracking-[-0.025em] text-[#1d1d1f] md:text-5xl">
-                        Uma rotina real, sem neura e sem privações
-                    </h2>
-                    <p class="mt-4 text-lg text-[#6e6e73]">
-                        Acredito que o cuidado com a saúde deve caber na sua vida, e não o contrário. Comer bem e treinar fazem parte de um estilo de vida leve e sustentável.
-                    </p>
-                </div>
-
-                <div class="mt-16 grid gap-6 md:grid-cols-3">
-                    <!-- Card 1: Esporte / Treino -->
-                    <div class="group relative overflow-hidden rounded-2xl aspect-[4/5] shadow-lg">
-                        <img src="./src/imagem2.jpg" alt="Prática de esporte e treino" class="h-full w-full object-cover transition duration-700 group-hover:scale-105">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
-                            <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Movimento</span>
-                            <h3 class="text-xl font-bold mt-1">Esporte e Treino com prazer</h3>
-                            <p class="text-sm text-white/80 mt-2">Movimentar o corpo porque você gosta, seja na musculação ou no esporte.</p>
-                        </div>
-                    </div>
-
-                    <!-- Card 2: Carrossel Interativo (Alimentação Equilibrada / Comida sem terrorismo) -->
-                    <div class="group relative overflow-hidden rounded-2xl aspect-[4/5] shadow-lg bg-black">
-                        <!-- Slides do Carrossel -->
-                        <div id="carousel-track" class="flex h-full w-full transition-transform duration-500 ease-out">
-                            <div class="min-w-full h-full relative">
-                                <img src="./src/imagem3.jpg" alt="Alimentação equilibrada" class="h-full w-full object-cover">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
-                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Nutrição</span>
-                                    <h3 class="text-xl font-bold mt-1">Comida de verdade sem terrorismo</h3>
-                                    <p class="text-sm text-white/80 mt-2">Sem cortar tudo o que você ama. O segredo está na flexibilidade.</p>
-                                </div>
-                            </div>
-                            <div class="min-w-full h-full relative">
-                                <img src="./src/imagem5.jpg" alt="Prato saudável e flexível" class="h-full w-full object-cover">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
-                                    <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Flexibilidade</span>
-                                    <h3 class="text-xl font-bold mt-1">Pratos reais e prazerosos</h3>
-                                    <p class="text-sm text-white/80 mt-2">Alimentação nutritiva que se adapta ao seu dia a dia.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Botões de navegação do carrossel -->
-                        <button id="prev-slide" aria-label="Anterior" class="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
-                            <i data-lucide="chevron-left" class="w-5 h-5"></i>
-                        </button>
-                        <button id="next-slide" aria-label="Próximo" class="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white backdrop-blur transition hover:bg-black/60 focus:outline-none">
-                            <i data-lucide="chevron-right" class="w-5 h-5"></i>
-                        </button>
-                    </div>
-
-                    <!-- Card 3: Estilo de Vida / Rotina -->
-                    <div class="group relative overflow-hidden rounded-2xl aspect-[4/5] shadow-lg">
-                        <img src="./src/imagem4.jpg" alt="Estilo de vida equilibrado" class="h-full w-full object-cover transition duration-700 group-hover:scale-105">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8 text-white">
-                            <span class="text-xs uppercase tracking-wider text-[#c9a96e] font-semibold">Lifestyle</span>
-                            <h3 class="text-xl font-bold mt-1">Resultados para a vida toda</h3>
-                            <p class="text-sm text-white/80 mt-2">Um método construído para se adaptar à sua rotina real, social e profissional.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-16 text-center">
-                    <a href="#contato" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#2D1E2F] px-6 py-3 text-sm font-medium text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-                        <i data-lucide="calendar" class="w-4 h-4"></i> Agende agora sua consulta
-                    </a>
-                </div>
-            </div>
-        </section>
-
         <!-- Contato / Localização -->
         <section id="contato" class="scroll-mt-24 px-6 py-24 md:px-12 lg:px-20 lg:py-32 bg-[#Fbfbfd]">
             <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-stretch">
@@ -423,9 +465,40 @@
         </div>
     </footer>
 
-    <!-- Script to initialize Lucide icons and mobile menu -->
+    <!-- Scripts de Interatividade -->
     <script>
         lucide.createIcons();
+
+        // Lógica universal para múltiplos carrosséis
+        const carousels = document.querySelectorAll('.group.relative.overflow-hidden.rounded-2xl');
+        
+        carousels.forEach((carousel) => {
+            const track = carousel.querySelector('.carousel-track');
+            const prevBtn = carousel.querySelector('.carousel-prev');
+            const nextBtn = carousel.querySelector('.carousel-next');
+            
+            if (!track || !prevBtn || !nextBtn) return;
+
+            let currentIndex = 0;
+            const slides = track.children;
+            const totalSlides = slides.length;
+
+            function updateCarousel() {
+                track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+
+            nextBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex + 1) % totalSlides;
+                updateCarousel();
+            });
+
+            prevBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                updateCarousel();
+            });
+        });
 
         // Mobile menu toggle
         const menuBtn = document.getElementById('menu-btn');
