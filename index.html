@@ -136,6 +136,33 @@
     .sobre-foto .quadro { aspect-ratio: 3 / 2; }
   }
 
+  /* Ajuste de tamanho das letras no desktop (a partir de 900px) */
+  @media (min-width: 900px) {
+    body { font-size: 1.125rem; }
+    .hero .sub { font-size: 1.3rem; }
+    .texto { font-size: 1.2rem; }
+    .sobre-texto .texto { font-size: 1.25rem; }
+    .servico p { font-size: 1.15rem; }
+    .servico a { font-size: 1.05rem; }
+    .passo h3 { font-size: 1.8rem; }
+    .passo p { font-size: 1.1rem; }
+    .selos span { font-size: 1rem; }
+    .faixa figcaption { font-size: 1.05rem; }
+    .faixa figcaption strong { font-size: 1.4rem; }
+    .slide .rotulo { font-size: .8rem; }
+    .slide h3 { font-size: 1.6rem; }
+    .slide p { font-size: 1.05rem; }
+    .assinatura strong { font-size: 1.5rem; }
+    .assinatura span { font-size: 1.05rem; }
+    .depoimento figcaption { font-size: 1.05rem; }
+    .contato-lista li { font-size: 1.1rem; }
+    .cartao-local h3 { font-size: 2.4rem; }
+    .cartao-local p { font-size: 1.15rem; }
+    .links a { font-size: 1.05rem; }
+    .btn { font-size: 1.05rem; }
+    footer { font-size: 1rem; }
+  }
+
   /* Sobre */
   .sobre-grid { display: grid; gap: 64px; align-items: center; }
   @media (min-width: 900px) { .sobre-grid { grid-template-columns: 1fr 1fr; gap: 96px; } }
@@ -324,6 +351,8 @@
         <div class="assinatura">
           <strong>Camila Costa</strong>
           <span>Nutricionista · CRN 00000</span>
+          <span>Pós-graduada em Nutrição Esportiva</span>
+          <span>Residente em Urgência e Emergência · HSC</span>
         </div>
       </div>
       <div class="sobre-foto">
